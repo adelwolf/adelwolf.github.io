@@ -2,23 +2,63 @@
 <html>
 <head>
 <style>
-body {background-color: #ffffff;}
-h1   {color: #00a9ff;}
-p    {color: #00729e;}
-  
- header, footer {
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+header, footer {
     padding: 1em;
     color: white;
-    background-color: black;
+    background-color: #00adff;
     clear: left;
     text-align: center;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
 }
 </style>
 </head>
 <body>
 
-<h1 style="font-family:verdana;">Adelbot Documentation</h1>
-<p>This is a paragraph.</p>
+<div class="container">
+
+<header>
+   <h1>Adebot</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/docs">Help</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>Home</h1>
+  <p>yeet</p>
+  <p>kek</p>
+</article>
+
+<footer>By adelwolf#7601</footer>
+
+</div>
 
 </body>
 </html>
